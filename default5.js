@@ -21,7 +21,7 @@ var divData;
                                  iconHtml='field-alt';
                             }
                             if (icons !='Snooker') { 
-                            $("#eventlist").append('<a href="https://'+domain+'/player.html?id='+obj.streamid+'&title='+obj.eventhome+' - '+obj.eventaway+'" class="eventClick '+obj.sport+' '+obj.id+'" dataId="'+obj.id+'" target="search_iframe" dataName="'+obj.eventhome+' - '+obj.eventaway+'"><div class="event even block"><div class="icon"><i class="icofont-'+iconHtml+'"></i></div><div class="live"><span><span style="color: black">'+obj.start+' </span>CANLI</span></div><div class="teams"><span>'+obj.eventhome+' - '+obj.eventaway+'</span></div><div class="league"><span>'+obj.sport+'</span></div><div class="clear"></div></div></a>');
+                            $("#eventlist").append('<a href="https://sport033.github.io/kodlar/player.html?id='+obj.streamid+'&title='+obj.eventhome+' - '+obj.eventaway+'" class="eventClick '+obj.sport+' '+obj.id+'" dataId="'+obj.id+'" target="search_iframe" dataName="'+obj.eventhome+' - '+obj.eventaway+'"><div class="event even block"><div class="icon"><i class="icofont-'+iconHtml+'"></i></div><div class="live"><span><span style="color: black">'+obj.start+' </span>CANLI</span></div><div class="teams"><span>'+obj.eventhome+' - '+obj.eventaway+'</span></div><div class="league"><span>'+obj.sport+'</span></div><div class="clear"></div></div></a>');
                             }
                          }
                         $(".SportSelect."+divData+"").trigger("click");
